@@ -71,7 +71,7 @@ btnIniciar.addEventListener("click", () => {
     obtenerSiguienteCandidato();
 });
 
-// audioSilbato.play().catch(error => console.log("Permiso de audio requerido:", error));
+
 function iniciarTemporizador() {
     // Limpiar cualquier conteo previo activo
     clearInterval(intervaloTiempo);
