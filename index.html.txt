@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Draft de Fútbol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>⚽ Mi Draft de Fútbol</h1>
+    
+    <div class="actions">
+        <button id="btn-iniciar">Iniciar Nuevo Draft</button>
+    </div>
+
+    <div class="draft-container" id="draft-area" style="display: none;">
+        <!-- Jugador que toca elegir -->
+        <div class="current-pick">
+            <h2>Jugador Disponible:</h2>
+            <div id="jugador-opcion" class="card">---</div>
+            <button id="btn-elegir">Fichar Jugador</button>
+            <button id="btn-descartar">Pasar / Siguiente</button>
+        </div>
+
+        <!-- Tu plantilla elegida -->
+        <div class="my-team">
+            <h2>Mi Equipo Formado</h2>
+            <ul id="lista-equipo">
+                <!-- Los jugadores elegidos aparecerán aquí -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
